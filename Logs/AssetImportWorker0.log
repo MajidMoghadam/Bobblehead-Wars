@@ -152,3 +152,51 @@ Received Import Request.
 Start importing Assets/Scenes/MainSettings.lighting using Guid(69425188649787d47a15508aba153e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595e21dfad7c00b87d0b40a463d440a9') in 0.005567 seconds 
   Import took 0.009864 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2964.600464 seconds.
+  path: Assets/Prefabs/BobbleArena-Column.prefab
+  artifactKey: Guid(1b808debd44103d43a1f91f648152b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BobbleArena-Column.prefab using Guid(1b808debd44103d43a1f91f648152b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd057094f71232fc04d55b1305d4232') in 0.115923 seconds 
+  Import took 0.120598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.962303 seconds.
+  path: Assets/Prefabs/BobbleArena-Column.prefab
+  artifactKey: Guid(1b808debd44103d43a1f91f648152b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BobbleArena-Column.prefab using Guid(1b808debd44103d43a1f91f648152b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6160009e1326d34275c5775b29d24e') in 0.020768 seconds 
+  Import took 0.025877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12690.148531 seconds.
+  path: Assets/Prefabs/BobbleArena-Column Variant.prefab
+  artifactKey: Guid(0437d033a9a8d0b4e98e430691b4b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BobbleArena-Column Variant.prefab using Guid(0437d033a9a8d0b4e98e430691b4b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4b9009a390342d7dc155905212d4a4') in 0.043611 seconds 
+  Import took 0.048323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/Prefabs/BobbleArena-Column Variant.prefab
+  artifactKey: Guid(0437d033a9a8d0b4e98e430691b4b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BobbleArena-Column Variant.prefab using Guid(0437d033a9a8d0b4e98e430691b4b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4b9009a390342d7dc155905212d4a4') in 0.023569 seconds 
+  Import took 0.029403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71898.978713 seconds.
+  path: Assets/Prefabs/BobbleArena-Column Variant.prefab
+  artifactKey: Guid(0437d033a9a8d0b4e98e430691b4b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BobbleArena-Column Variant.prefab using Guid(0437d033a9a8d0b4e98e430691b4b891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437f0a383e60664703abae42240ac1e0') in 0.071311 seconds 
+  Import took 0.075827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2948.706464 seconds.
+  path: Assets/Prefabs/BobbleArena-Column.prefab
+  artifactKey: Guid(1b808debd44103d43a1f91f648152b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BobbleArena-Column.prefab using Guid(1b808debd44103d43a1f91f648152b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93174b34f1f848739fd46b7e627f1a86') in 0.049076 seconds 
+  Import took 0.053917 seconds .
+
