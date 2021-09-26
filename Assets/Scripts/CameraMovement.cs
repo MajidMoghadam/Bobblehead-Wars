@@ -36,19 +36,23 @@ public class CameraMovement : MonoBehaviour
 {
     public GameObject followTarget;
     public float moveSpeed;
+    Vector3 displacement = new Vector3();
 
 	// Use this for initialization
 	void Start ()
     {
-		
-	}
+        displacement = followTarget.transform.position - transform.position;
+
+    }
 	
 	// Update is called once per frame
 	void Update ()
     {
 		if (followTarget != null)
         {
-            transform.position = Vector3.Lerp(transform.position, followTarget.transform.position, Time.deltaTime * moveSpeed);
+            //transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fractionOfJourney);
+            transform.position = Vector3.Lerp(this.transform.position, followTarget.transform.position, Time.deltaTime * moveSpeed);
+            //transform.position = followTarget.transform.position + displacement;
         }
-	}
+    }
 }

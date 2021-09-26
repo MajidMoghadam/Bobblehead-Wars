@@ -1135,6 +1135,8 @@ GameObject:
   - component: {fileID: 4558308299672658}
   - component: {fileID: 818406091}
   - component: {fileID: 818406090}
+  - component: {fileID: -6269384503204495137}
+  - component: {fileID: 5406890614088183870}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Untagged
@@ -1187,6 +1189,42 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2.52
   m_Center: {x: 0.34, y: 2.54, z: 0.57}
+--- !u!195 &-6269384503204495137
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326983052875474}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1.45
+  m_Speed: 20
+  m_Acceleration: 15.5
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 0
+  m_AutoRepath: 1
+  m_Height: 6.2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 1
+--- !u!114 &5406890614088183870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326983052875474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58208b84e185e3b4cb14b912169dffdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  navigationUpdate: 0.5
 --- !u!1 &1344034646348482
 GameObject:
   m_ObjectHideFlags: 0
