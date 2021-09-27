@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4457101673020156}
   - component: {fileID: 33263616444384120}
   - component: {fileID: 23069660827987662}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube_001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 4017857075676920}
   - component: {fileID: 33771013485497310}
   - component: {fileID: 23000246791194948}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -174,7 +174,7 @@ GameObject:
   - component: {fileID: 95296342712913322}
   - component: {fileID: -3964746778169519728}
   - component: {fileID: -6019591803746386353}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: BobbleArena-Column
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +257,7 @@ GameObject:
   - component: {fileID: 4928897965630116}
   - component: {fileID: 33225833791805072}
   - component: {fileID: 23628751382246034}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
