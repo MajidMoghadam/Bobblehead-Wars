@@ -22,6 +22,7 @@ public class ArenaWall : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        //change value of parameter in animator
         arenaAnimator.SetBool("IsLowered", true);
     }
 
