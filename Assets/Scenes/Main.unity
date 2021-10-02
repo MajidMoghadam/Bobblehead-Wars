@@ -396,6 +396,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 9075b8c6238b8074ab40c1e7bb86fd4a, type: 3}
   m_PrefabInstance: {fileID: 1865030374}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &405566258 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9500000, guid: 9075b8c6238b8074ab40c1e7bb86fd4a, type: 3}
+  m_PrefabInstance: {fileID: 1865030374}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &405566259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,6 +812,7 @@ MonoBehaviour:
   layerMask:
     serializedVersion: 2
     m_Bits: 4096
+  bodyAnimator: {fileID: 405566258}
 --- !u!143 &1032903425
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1731,6 +1737,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 9075b8c6238b8074ab40c1e7bb86fd4a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d7bc61d5ad2f47849bae474cb35abe2d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9075b8c6238b8074ab40c1e7bb86fd4a, type: 3}
 --- !u!4 &1865030375 stripped
