@@ -6,6 +6,7 @@ public class ArenaWall : MonoBehaviour
 {
 
     private Animator arenaAnimator;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -30,4 +31,5 @@ public class ArenaWall : MonoBehaviour
     {
         arenaAnimator.SetBool("IsLowered", false);
     }
+
 }
