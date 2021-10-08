@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
     private float actualUpgradeTime = 0;
     private float currentUpgradeTime = 0;
 
+    public GameObject deathFloor;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,7 +59,6 @@ public class GameManager : MonoBehaviour
                 upgrade.transform.position = spawnLocation.transform.position;
                 // 4
                 spawnedUpgrade = true;
-
                 SoundManager.Instance.PlayOneShot(SoundManager.Instance.powerUpAppear);
             }
         }
@@ -114,6 +116,8 @@ public class GameManager : MonoBehaviour
                         newAlien.transform.LookAt(targetRotation);
 
                         alienScript.OnDestroy.AddListener(AlienDestroyed);
+
+                        alienScript.GetDeathParticles().SetDeathFloor(deathFloor);
                     }
                 }
             }

@@ -42,6 +42,8 @@ public class Gun : MonoBehaviour
     public float upgradeTime = 10.0f;
     private float currentTime;
 
+  
+
     // Use this for initialization
     void Start ()
     {
@@ -88,10 +90,12 @@ public class Gun : MonoBehaviour
         if (isUpgraded)
         {
             audioSource.PlayOneShot(SoundManager.Instance.upgradedGunFire);
+        
         }
         else
         {
             audioSource.PlayOneShot(SoundManager.Instance.gunFire);
+       
         }
     }
 
