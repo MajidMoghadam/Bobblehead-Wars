@@ -74,29 +74,33 @@ public class Gun : MonoBehaviour
 
     void fireBullet()
     {
-        Rigidbody bullet = createBullet();
-        bullet.velocity = transform.parent.forward * 100;
-
-        if (isUpgraded)
+        if (transform.parent != null)
         {
-            Rigidbody bullet2 = createBullet();
-            bullet2.velocity =
-            (transform.right + transform.forward / 0.5f) * 100;
-            Rigidbody bullet3 = createBullet();
-            bullet3.velocity =
-            ((transform.right * -1) + transform.forward / 0.5f) * 100;
+            Rigidbody bullet = createBullet();
+            bullet.velocity = transform.parent.forward * 100;
+
+            if (isUpgraded)
+            {
+                Rigidbody bullet2 = createBullet();
+                bullet2.velocity =
+                (transform.right + transform.forward / 0.5f) * 100;
+                Rigidbody bullet3 = createBullet();
+                bullet3.velocity =
+                ((transform.right * -1) + transform.forward / 0.5f) * 100;
+            }
+
+            if (isUpgraded)
+            {
+                audioSource.PlayOneShot(SoundManager.Instance.upgradedGunFire);
+
+            }
+            else
+            {
+                audioSource.PlayOneShot(SoundManager.Instance.gunFire);
+
+            }
         }
-
-        if (isUpgraded)
-        {
-            audioSource.PlayOneShot(SoundManager.Instance.upgradedGunFire);
         
-        }
-        else
-        {
-            audioSource.PlayOneShot(SoundManager.Instance.gunFire);
-       
-        }
     }
 
     private Rigidbody createBullet()
